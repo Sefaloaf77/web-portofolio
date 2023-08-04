@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="./public/style.css" />
     <script src="./public/script.js"></script>
+    <script type="text/javascript" src="./public/vanilla-tilt.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -581,7 +582,13 @@
               >Say Hi!</a
             >
           </div>
-          <div class="photo md:absolute md:end-48 md:-mt-[88px] w-80">
+          <div
+            class="photoCTA md:absolute md:end-48 md:-mt-[88px] w-80"
+            data-tilt
+            data-tilt-max="50"
+            data-tilt-speed="400"
+            data-tilt-perspective="500"
+          >
             <img src="public/img/cta-photo.png" alt="CTA" />
           </div>
         </div>
@@ -638,4 +645,13 @@
     </footer>
     <!-- footer end -->
   </body>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelector(".photoCTA"), {
+      max: 25,
+      speed: 400,
+    });
+
+    //It also supports NodeList
+    VanillaTilt.init(document.querySelectorAll(".photoCTA"));
+  </script>
 </html>
