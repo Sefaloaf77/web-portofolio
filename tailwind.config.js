@@ -15,6 +15,7 @@ module.exports = {
         primary: "#282B38",
         secondary: "#35394A",
         ownOrange: "#FFC814",
+        ownOrangeHover: "#FFD95C",
       },
       // letterSpacing: {
       //   widest: ".25em",
