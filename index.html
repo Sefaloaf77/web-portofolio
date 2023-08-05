@@ -22,7 +22,7 @@
   <body class="bg-secondary">
     <!-- navbar -->
     <nav
-      class="md:px-28 px-16 md:mx-auto navbar absolute top-0 inset-x-0 w-full flex items-center z-10"
+      class="absolute inset-x-0 top-0 z-10 flex items-center w-full px-8 md:px-28 md:mx-auto navbar"
     >
       <div class="navbar-start">
         <div class="dropdown">
@@ -62,8 +62,8 @@
           <li><a href="#portofolio">PORTOFOLIO</a></li>
         </ul>
       </div>
-      <div class="navbar-end justify-end">
-        <div class="px-1 sosmed flex items-center mt-5">
+      <div class="justify-end navbar-end">
+        <div class="flex items-center px-1 mt-5 sosmed">
           <a
             href="https://www.instagram.com/sefalo.af/"
             target="_blank"
@@ -126,21 +126,21 @@
     <!-- hero -->
     <section id="home" class="mt-0">
       <div class="container">
-        <div class="flex flex-wrap justify-center mx-auto w-9/12 md:h-screen">
+        <div class="flex flex-wrap justify-center w-9/12 mx-auto md:h-screen">
           <div
-            class="w-full self-center text-center mt-24 lg:mt-36 lg:text-left lg:w-1/3"
+            class="self-center w-full mt-24 text-center lg:mt-36 lg:text-left lg:w-1/3"
           >
-            <h1 class="text-6xl text-white font-thin">Hi 👋,</h1>
-            <h1 class="text-6xl mt-2 text-white font-thin">
+            <h1 class="text-6xl font-thin text-white">Hi 👋,</h1>
+            <h1 class="mt-2 text-6xl font-thin text-white">
               I'm <span class="font-bold">Sefalo.</span>
             </h1>
             <div class="line">
-              <svg class="stroke-ownOrange stroke-5 h-5 w-48 mx-auto lg:mx-0">
+              <svg class="w-48 h-5 mx-auto stroke-ownOrange stroke-5 lg:mx-0">
                 <line x1="0" y1="10px" x2="200px" y2="10px" />
               </svg>
             </div>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/3">
+          <div class="self-end w-full px-4 lg:w-1/3">
             <div class="mt-10">
               <img
                 src="./public/img/hero-photo.png"
@@ -149,7 +149,7 @@
               />
             </div>
           </div>
-          <div class="w-full self-start mt-12 lg:mt-64 lg:w-1/3">
+          <div class="self-start w-full mt-12 lg:mt-64 lg:w-1/3">
             <h3 class="text-xl text-white">
               <span class="font-bold">Web Developer</span> based in
               <span class="font-bold">Indonesia</span>
@@ -161,7 +161,7 @@
             <a
               href="mailto:sefaloaf@gmail.com?subject=Let's Collab!&body=Hello Sefalo!"
               target="_blank"
-              class="text-base font-semibold bg-ownOrange text-black rounded-full border-2 border-black px-5 py-2 shadow-solid hover:shadow-none hover:bg-ownOrangeHover transition duration-300 ease-in-out"
+              class="px-5 py-2 text-base font-semibold text-black transition duration-300 ease-in-out border-2 border-black rounded-full bg-ownOrange shadow-solid hover:shadow-none hover:bg-ownOrangeHover"
               >Call me!</a
             >
           </div>
@@ -172,18 +172,18 @@
 
     <!-- about me -->
     <section id="aboutme" class="bg-primary">
-      <div class="container py-16 w-9/12 mx-auto">
+      <div class="container w-9/12 py-16 mx-auto">
         <div class="flex">
           <svg
-            class="stroke-ownOrange stroke-5 h-5 w-20 mx-auto lg:mx-0 self-center"
+            class="self-center w-20 h-5 mx-auto stroke-ownOrange stroke-5 lg:mx-0"
           >
             <line x1="0" y1="10px" x2="80px" y2="10px" />
           </svg>
-          <h2 class="text-5xl text-white ml-6 tracking-widest font-semibold">
+          <h2 class="ml-6 text-5xl font-semibold tracking-widest text-white">
             About Me
           </h2>
         </div>
-        <p class="text-base text-white pt-8 text-justify">
+        <p class="pt-8 text-base text-justify text-white">
           Hi, I am Sefalo. Junior Web Developer with a deep passion for Frontend
           Web Development. I enjoy designing attractive and responsive user
           interfaces, as well as creating amazing user experiences. Throughout
@@ -197,7 +197,7 @@
           to success, and I am ready to challenge myself to keep growing and
           advancing in this exciting industry.
         </p>
-        <div class="sosmed mt-10">
+        <div class="mt-10 sosmed">
           <h3 class="text-2xl font-bold text-white">
             Let's be friends <span class="font-thin">on:</span>
           </h3>
@@ -205,7 +205,7 @@
             <a
               href="https://www.instagram.com/sefalo.af/"
               target="_blank"
-              class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange transition duration-300 ease-in-out"
+              class="flex items-center justify-center mt-3 mr-3 transition duration-300 ease-in-out border rounded-full w-9 h-9 border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange"
             >
               <svg
                 role="img"
@@ -223,7 +223,7 @@
             <a
               href="https://www.linkedin.com/in/sefaloaf/"
               target="_blank"
-              class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange transition duration-300 ease-in-out"
+              class="flex items-center justify-center mt-3 mr-3 transition duration-300 ease-in-out border rounded-full w-9 h-9 border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange"
             >
               <svg
                 role="img"
@@ -241,7 +241,7 @@
             <a
               href="https://github.com/Sefaloaf77"
               target="_blank"
-              class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange transition duration-300 ease-in-out"
+              class="flex items-center justify-center mt-3 mr-3 transition duration-300 ease-in-out border rounded-full w-9 h-9 border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange"
             >
               <svg
                 role="img"
@@ -259,7 +259,7 @@
             <a
               href="https://discordapp.com/users/713167996377366751"
               target="_blank"
-              class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange transition duration-300 ease-in-out"
+              class="flex items-center justify-center mt-3 mr-3 transition duration-300 ease-in-out border rounded-full w-9 h-9 border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange"
             >
               <svg
                 role="img"
@@ -277,7 +277,7 @@
             <a
               href="https://www.instagram.com/garasifalow/"
               target="_blank"
-              class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange transition duration-300 ease-in-out"
+              class="flex items-center justify-center mt-3 mr-3 transition duration-300 ease-in-out border rounded-full w-9 h-9 border-ownOrange text-ownOrange hover:text-secondary hover:border-secondary hover:bg-ownOrange"
             >
               <svg
                 role="img"
@@ -300,38 +300,38 @@
 
     <!-- services -->
     <section id="services" class="bg-primary">
-      <div class="container py-16 w-9/12 mx-auto">
+      <div class="container w-9/12 py-16 mx-auto">
         <div class="flex justify-center">
-          <svg class="stroke-ownOrange stroke-5 h-5 w-20 self-center">
+          <svg class="self-center w-20 h-5 stroke-ownOrange stroke-5">
             <line x1="0" y1="10px" x2="80px" y2="10px" />
           </svg>
-          <h2 class="text-5xl text-white ml-6 tracking-widest font-semibold">
+          <h2 class="ml-6 text-5xl font-semibold tracking-widest text-white">
             Services
           </h2>
         </div>
-        <div class="grid lg:grid-cols-3 gap-10 mt-12 lg:mt-16">
-          <div class="rounded-lg bg-secondary shadow-lg">
-            <div class="flex flex-col py-10 px-10 text-white">
-              <div class="gambar h-14 w-14 bg-primary rounded-full text-center">
+        <div class="grid gap-10 mt-12 lg:grid-cols-3 lg:mt-16">
+          <div class="rounded-lg shadow-lg bg-secondary">
+            <div class="flex flex-col px-10 py-10 text-white">
+              <div class="text-center rounded-full gambar h-14 w-14 bg-primary">
                 <i
-                  class="fa-solid fa-brush h-full w-full mt-4 text-ownOrange text-xl"
+                  class="w-full h-full mt-4 text-xl fa-solid fa-brush text-ownOrange"
                 ></i>
               </div>
-              <h4 class="font-semibold my-5">UI/UX Design</h4>
+              <h4 class="my-5 font-semibold">UI/UX Design</h4>
               <p class="text-justify">
                 Turn what you have in mind of digital product into reality. For
                 any platform you consider.
               </p>
             </div>
           </div>
-          <div class="rounded-lg bg-secondary shadow-lg">
-            <div class="flex flex-col py-10 px-10 text-white">
-              <div class="gambar h-14 w-14 bg-primary rounded-full text-center">
+          <div class="rounded-lg shadow-lg bg-secondary">
+            <div class="flex flex-col px-10 py-10 text-white">
+              <div class="text-center rounded-full gambar h-14 w-14 bg-primary">
                 <i
-                  class="fa-solid fa-globe h-full w-full mt-4 text-ownOrange text-xl"
+                  class="w-full h-full mt-4 text-xl fa-solid fa-globe text-ownOrange"
                 ></i>
               </div>
-              <h4 class="font-semibold my-5">Web Development</h4>
+              <h4 class="my-5 font-semibold">Web Development</h4>
               <p class="text-justify">
                 Create and maintain your website and also take care of its
                 performance and traffic capacity. Proficient in HTML, CSS, JS,
@@ -339,14 +339,14 @@
               </p>
             </div>
           </div>
-          <div class="rounded-lg bg-secondary shadow-lg">
-            <div class="flex flex-col py-10 px-10 text-white">
-              <div class="gambar h-14 w-14 bg-primary rounded-full text-center">
+          <div class="rounded-lg shadow-lg bg-secondary">
+            <div class="flex flex-col px-10 py-10 text-white">
+              <div class="text-center rounded-full gambar h-14 w-14 bg-primary">
                 <i
-                  class="fa-solid fa-camera h-full w-full mt-4 text-ownOrange text-xl"
+                  class="w-full h-full mt-4 text-xl fa-solid fa-camera text-ownOrange"
                 ></i>
               </div>
-              <h4 class="font-semibold my-5">Photo & Videography</h4>
+              <h4 class="my-5 font-semibold">Photo & Videography</h4>
               <p class="text-justify">
                 Experience our exceptional photography and videography services
                 that capture moments and stories with creativity and precision.
@@ -360,19 +360,19 @@
 
     <!-- my portofolio -->
     <section id="#portofolio" class="bg-secondary">
-      <div class="container py-16 w-9/12 mx-auto">
+      <div class="container w-9/12 py-16 mx-auto">
         <div class="flex justify-center">
-          <svg class="stroke-ownOrange stroke-5 h-5 w-20 self-center">
+          <svg class="self-center w-20 h-5 stroke-ownOrange stroke-5">
             <line x1="0" y1="10px" x2="80px" y2="10px" />
           </svg>
-          <h2 class="text-5xl text-white ml-6 tracking-widest font-semibold">
+          <h2 class="ml-6 text-5xl font-semibold tracking-widest text-white">
             My Works
           </h2>
         </div>
-        <div class="grid md:grid-cols-2 gap-10 mt-12 lg:mt-16 justify-between">
-          <div class="card bg-base-100 shadow-xl">
+        <div class="grid justify-between gap-10 mt-12 md:grid-cols-2 lg:mt-16">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work1.png)"
             >
               <!-- <img
@@ -381,16 +381,16 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">
                 SAGA - Sampah Juga Berharga
               </h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Project result of the OLIVIA 2021 web design competition,
                 collaborated with my team of 5 members, where I served as the
                 frontend web developer.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Bootstrap
                 </div>
@@ -400,9 +400,9 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work2.png)"
             >
               <!-- <img
@@ -411,16 +411,16 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">
                 Creanomic 2021 Web Profile
               </h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Web profile for the Creative Economic and Innovation Center
                 event. I am the Head of the IT division with a frontend and
                 UI/UX role.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Bootstrap
                 </div>
@@ -430,9 +430,9 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work3.png)"
             >
               <!-- <img
@@ -441,16 +441,16 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">
                 Company Profile - BEM FV UB 2022
               </h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Developed the web profile for a university organization named
                 Student Executive Board. I served as the project lead,
                 responsible for frontend development and UI/UX design.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Bootstrap
                 </div>
@@ -460,9 +460,9 @@
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work4.png)"
             >
               <!-- <img
@@ -471,22 +471,22 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">NAFTEX Web Profile</h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Designing the NAFTEX website, which serves as a platform for
                 business plan competition and the Young Entrepreneur Seminar.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Figma
                 </div>
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work5.png)"
             >
               <!-- <img
@@ -496,23 +496,23 @@
               /> -->
             </figure>
             <div
-              class="card-body rounded-b-2xl drop-shadow-xl rounded bg-white"
+              class="bg-white rounded card-body rounded-b-2xl drop-shadow-xl"
             >
               <h2 class="card-title text-primary">Company Profile - HIMAITF</h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Designing the HIMATIF website interface intended for a web
                 design competition.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Figma
                 </div>
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work7.png)"
             >
               <!-- <img
@@ -521,21 +521,21 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">Redesign DBL Store App</h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Redesigning the user interface of the DBL STORE application.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Figma
                 </div>
               </div>
             </div>
           </div>
-          <div class="card bg-base-100 shadow-xl">
+          <div class="shadow-xl card bg-base-100">
             <figure
-              class="h-52 bg-top bg-cover bg-gradient-to-t from-slate-950"
+              class="bg-top bg-cover h-52 bg-gradient-to-t from-slate-950"
               style="background-image: url(public/img/work6.png)"
             >
               <!-- <img
@@ -544,12 +544,12 @@
                 class="bg-clip-border"
               /> -->
             </figure>
-            <div class="card-body rounded-b-2xl drop-shadow-xl bg-white">
+            <div class="bg-white card-body rounded-b-2xl drop-shadow-xl">
               <h2 class="card-title text-primary">Design Stunting App</h2>
-              <p class="text-secondary text-opacity-75">
+              <p class="text-opacity-75 text-secondary">
                 Designing the user interface of the Stunting application.
               </p>
-              <div class="card-actions justify-end">
+              <div class="justify-end card-actions">
                 <div class="badge badge-outline border-primary text-secondary">
                   Figma
                 </div>
@@ -563,22 +563,22 @@
 
     <!-- cta -->
     <section class="bg-primary">
-      <div class="container py-16 w-9/12 mx-auto">
+      <div class="container w-9/12 py-16 mx-auto">
         <div
-          class="w-full bg-secondary py-4 px-10 rounded-xl flex md:flex-nowrap flex-wrap"
+          class="flex flex-wrap w-full px-10 py-4 bg-secondary rounded-xl md:flex-nowrap"
         >
-          <div class="md:w-8/12 py-6">
-            <h4 class="font-base text-white text-opacity-60 mt-2">
+          <div class="py-6 md:w-8/12">
+            <h4 class="mt-2 text-white font-base text-opacity-60">
               Keep in touch with me!
             </h4>
-            <h2 class="my-6 font-bold text-2xl text-white">
+            <h2 class="my-6 text-2xl font-bold text-white">
               Transform your ideas into reality through our bespoke web
               development solutions
             </h2>
             <a
               href="mailto:sefaloaf@gmail.com?subject=Let's Collab!&body=Hello Sefalo!"
               target="_blank"
-              class="text-base font-semibold bg-ownOrange text-black rounded-full border-2 border-black px-5 py-2 shadow-solid hover:shadow-none hover:bg-ownOrangeHover transition duration-300 ease-in-out"
+              class="px-5 py-2 text-base font-semibold text-black transition duration-300 ease-in-out border-2 border-black rounded-full bg-ownOrange shadow-solid hover:shadow-none hover:bg-ownOrangeHover"
               >Say Hi!</a
             >
           </div>
@@ -598,45 +598,45 @@
 
     <!-- footer -->
     <footer class="bg-primary">
-      <div class="container py-6 w-9/12 mx-auto">
+      <div class="container w-9/12 py-6 mx-auto">
         <div
-          class="flex items-center justify-center md:justify-between flex-wrap"
+          class="flex flex-wrap items-center justify-center md:justify-between"
         >
-          <div class="flex items-center mx-auto py-2">
+          <div class="flex items-center py-2 mx-auto">
             <div
-              class="w-10 h-10 bg-white border-2 border-ownOrange rounded-full text-center flex justify-center items-center"
+              class="flex items-center justify-center w-10 h-10 text-center bg-white border-2 rounded-full border-ownOrange"
             >
               <span class="text-black">S</span>
             </div>
-            <h4 class="text-white ml-3 font-thin">
+            <h4 class="ml-3 font-thin text-white">
               <span class="font-bold">Sefalo</span> 'Aadila Faruq
             </h4>
           </div>
-          <div class="flex items-center mx-auto py-2">
+          <div class="flex items-center py-2 mx-auto">
             <div
-              class="w-10 h-10 bg-secondary border border-ownOrange rounded-full text-center flex justify-center items-center"
+              class="flex items-center justify-center w-10 h-10 text-center border rounded-full bg-secondary border-ownOrange"
             >
               <i class="fa-solid fa-location-dot text-ownOrange"></i>
             </div>
-            <h4 class="text-white ml-3 font-thin">
+            <h4 class="ml-3 font-thin text-white">
               Tulungagung, East Java, Indonesia
             </h4>
           </div>
-          <div class="flex items-center mx-auto py-2">
+          <div class="flex items-center py-2 mx-auto">
             <div
-              class="w-10 h-10 bg-secondary border border-ownOrange rounded-full text-center flex justify-center items-center"
+              class="flex items-center justify-center w-10 h-10 text-center border rounded-full bg-secondary border-ownOrange"
             >
               <i class="fa-solid fa-envelope text-ownOrange"></i>
             </div>
-            <h4 class="text-white ml-3 font-thin">sefaloaf@gmail.com</h4>
+            <h4 class="ml-3 font-thin text-white">sefaloaf@gmail.com</h4>
           </div>
-          <div class="flex items-center mx-auto py-2">
+          <div class="flex items-center py-2 mx-auto">
             <div
-              class="w-10 h-10 bg-secondary border border-ownOrange rounded-full text-center flex justify-center items-center"
+              class="flex items-center justify-center w-10 h-10 text-center border rounded-full bg-secondary border-ownOrange"
             >
               <i class="fa-solid fa-phone-volume text-ownOrange"></i>
             </div>
-            <h4 class="text-white ml-3 font-thin">
+            <h4 class="ml-3 font-thin text-white">
               <span class="font-bold">+62</span> 877 6113 9183
             </h4>
           </div>
